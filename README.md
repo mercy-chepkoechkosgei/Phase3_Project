@@ -18,15 +18,22 @@ Features like customer service calls and total day minutes have high correlation
 ###  Logistic regression models:
 
 **Baseline Model**:
-Logistic regression without class balancing
-Standard training and evaluation
-Handled categorical features by one-hot encoding
+
+* Logistic regression without class balancing
+
+* Scaled numerical features.
+
+* Standard training and evaluation
+
+* Handled categorical features by one-hot encoding
 
 **Improved Model**:
-Applied SMOTE to balance the training dataset
-Logistic regression using the liblinear solver and tuned iterations
-Scaled numerical features.
-Objective: improve detection of churners (increase recall)
+
+* Applied SMOTE to balance the training dataset
+
+* Logistic regression using the liblinear solver and tuned iterations
+
+* Objective: improve detection of churners (increase recall)
 ### Evaluation
 
 **Baseline Model Metrics**:
